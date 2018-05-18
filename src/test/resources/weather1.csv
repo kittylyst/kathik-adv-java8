@@ -1,0 +1,69 @@
+#The CSV format is in following way:-
+#The day information is available in following format:-
+#date,maxtempC,maxtempF,mintempC,mintempF,sunrise,sunset,moonrise,moonset,moon_phase,moon_illumination
+#
+#Hourly information follows below the day in the following way:-
+#date,time,tempC,tempF,windspeedMiles,windspeedKmph,winddirdegree,winddir16point,weatherCode,weatherIconUrl,weatherDesc,precipMM,humidity,visibilityKm,pressureMB,cloudcover,HeatIndexC,HeatIndexF,DewPointC,DewPointF,WindChillC,WindChillF,WindGustMiles,WindGustKmph,FeelsLikeC,FeelsLikeF
+#
+2018-01-01,9,48,7,45,09:54 AM,05:32 PM,05:21 PM,08:48 AM,Full Moon,83
+2018-01-01,24,9,48,23,36,297,WNW,176,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,7.0,72,10,1001,75,8,46,3,37,3,38,36,58,3,38
+2018-01-02,9,49,5,42,09:54 AM,05:33 PM,06:26 PM,09:53 AM,Full Moon,90
+2018-01-02,24,9,49,25,40,232,SW,353,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Light rain shower,29.2,82,8,997,83,8,46,6,42,4,39,38,61,4,39
+2018-01-03,9,49,8,46,09:53 AM,05:34 PM,07:42 PM,10:47 AM,Full Moon,97
+2018-01-03,24,9,49,32,52,267,W,353,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Light rain shower,9.3,68,9,996,88,8,47,3,37,3,38,50,81,3,38
+2018-01-04,10,50,7,45,09:53 AM,05:35 PM,09:02 PM,11:29 AM,Waning Gibbous,97
+2018-01-04,24,10,50,17,27,277,W,353,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Light rain shower,9.7,80,8,992,89,8,46,4,40,4,40,26,42,4,40
+2018-01-05,8,47,5,42,09:53 AM,05:37 PM,10:21 PM,12:03 PM,Waning Gibbous,90
+2018-01-05,24,8,47,12,19,257,WSW,356,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,9.8,75,9,991,88,7,44,3,37,4,38,18,29,4,38
+2018-01-06,6,43,4,38,09:52 AM,05:38 PM,11:39 PM,12:30 PM,Waning Gibbous,83
+2018-01-06,24,6,43,18,29,55,NE,122,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Overcast,3.7,83,10,1014,48,4,40,2,35,-1,31,28,44,-1,31
+2018-01-07,6,42,1,34,09:52 AM,05:39 PM,No moonrise,12:54 PM,Waning Gibbous,76
+2018-01-07,24,6,42,11,18,105,ESE,119,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,81,10,1029,17,3,37,0,32,-1,29,18,29,-1,29
+2018-01-08,7,44,0,32,09:51 AM,05:41 PM,12:54 AM,01:16 PM,Last Quarter,69
+2018-01-08,24,7,44,14,23,132,SE,122,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Overcast,0.0,82,10,1019,45,3,38,1,33,-1,30,21,33,-1,30
+2018-01-09,10,49,8,46,09:51 AM,05:42 PM,02:05 AM,01:37 PM,Last Quarter,62
+2018-01-09,24,10,49,21,33,196,SSW,302,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png,Moderate rain,13.1,86,8,995,89,8,47,6,43,4,39,32,52,4,39
+2018-01-10,6,44,4,38,09:50 AM,05:44 PM,03:15 AM,01:58 PM,Last Quarter,55
+2018-01-10,24,6,44,10,15,80,E,389,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0024_thunderstorms.png,Moderate or heavy rain with thunder,23.0,88,7,1002,92,5,41,3,38,2,36,15,23,2,36
+2018-01-11,8,46,3,38,09:49 AM,05:45 PM,04:22 AM,02:22 PM,Waning Crescent,48
+2018-01-11,24,8,46,10,15,142,SE,116,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,18.5,90,9,1020,39,5,41,4,38,2,36,14,23,2,36
+2018-01-12,10,50,6,43,09:49 AM,05:47 PM,05:28 AM,02:49 PM,Waning Crescent,41
+2018-01-12,24,10,50,24,39,152,SSE,302,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png,Moderate rain,8.9,87,9,1012,84,8,46,6,43,3,38,38,61,3,38
+2018-01-13,10,50,7,45,09:48 AM,05:48 PM,06:30 AM,03:21 PM,Waning Crescent,34
+2018-01-13,24,10,50,11,17,144,SE,176,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,11.1,92,9,1006,52,9,47,7,45,6,43,17,28,6,43
+2018-01-14,9,47,6,42,09:47 AM,05:50 PM,07:29 AM,03:58 PM,Waning Crescent,28
+2018-01-14,24,9,47,17,28,207,SSW,302,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png,Moderate rain,9.1,91,9,1010,86,7,44,6,44,3,38,27,44,3,38
+2018-01-15,9,47,7,45,09:46 AM,05:51 PM,08:22 AM,04:42 PM,Waning Crescent,21
+2018-01-15,24,9,47,29,46,282,WNW,353,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Light rain shower,17.8,79,9,998,88,8,47,5,41,3,38,42,68,3,38
+2018-01-16,5,41,4,38,09:45 AM,05:53 PM,09:09 AM,05:34 PM,Waning Crescent,14
+2018-01-16,24,5,41,39,62,283,WNW,362,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0013_sleet_showers.png,Light sleet showers,16.7,66,7,997,92,5,40,-1,30,-2,29,59,95,-2,29
+2018-01-17,7,44,3,37,09:44 AM,05:55 PM,09:50 AM,06:31 PM,Waning Crescent,7
+2018-01-17,24,7,44,30,49,256,WSW,362,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0013_sleet_showers.png,Light sleet showers,20.4,74,9,1004,89,5,41,2,36,0,32,48,77,0,32
+2018-01-18,6,44,5,41,09:43 AM,05:57 PM,10:24 AM,07:34 PM,New Moon,0
+2018-01-18,24,6,44,25,40,289,WNW,362,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0013_sleet_showers.png,Light sleet showers,13.5,70,10,1003,75,6,43,1,34,1,34,39,62,1,34
+2018-01-19,7,44,5,40,09:42 AM,05:58 PM,10:53 AM,08:39 PM,Waxing Crescent,0
+2018-01-19,24,7,44,23,37,285,WNW,362,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0013_sleet_showers.png,Light sleet showers,11.6,69,10,1009,79,6,42,0,33,1,33,36,59,1,33
+2018-01-20,10,49,4,40,09:41 AM,06:00 PM,11:18 AM,09:46 PM,Waxing Crescent,7
+2018-01-20,24,10,49,14,23,274,W,353,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Light rain shower,4.3,87,7,1002,88,7,45,5,42,4,39,22,35,4,39
+2018-01-21,11,53,10,50,09:40 AM,06:02 PM,11:41 AM,10:55 PM,Waxing Crescent,14
+2018-01-21,24,11,53,22,36,254,WSW,308,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png,Heavy rain,46.2,92,8,1005,91,10,50,9,48,6,43,36,57,6,43
+2018-01-22,10,49,8,46,09:38 AM,06:03 PM,12:02 PM,No moonset,Waxing Crescent,21
+2018-01-22,24,10,49,17,27,232,SW,353,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Light rain shower,1.3,83,9,1011,88,9,48,6,43,5,41,26,42,5,41
+2018-01-23,10,50,8,46,09:37 AM,06:05 PM,12:23 PM,12:06 AM,First Quarter,28
+2018-01-23,24,10,50,24,38,226,SW,356,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,7.9,87,8,1003,88,9,49,8,46,5,42,40,64,5,42
+2018-01-24,9,47,7,45,09:36 AM,06:07 PM,12:45 PM,01:18 AM,First Quarter,34
+2018-01-24,24,9,47,30,49,245,WSW,353,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Light rain shower,25.2,73,8,993,84,8,46,4,38,3,37,47,75,3,37
+2018-01-25,9,48,6,44,09:34 AM,06:09 PM,01:10 PM,02:33 AM,First Quarter,41
+2018-01-25,24,9,48,23,36,298,WNW,356,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,16.5,76,8,1001,72,8,46,4,38,3,37,37,59,3,37
+2018-01-26,9,48,6,44,09:33 AM,06:11 PM,01:40 PM,03:49 AM,First Quarter,48
+2018-01-26,24,9,48,15,23,245,WSW,353,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Light rain shower,5.2,86,10,1021,56,8,46,6,42,5,40,22,36,5,40
+2018-01-27,11,52,10,50,09:31 AM,06:13 PM,02:16 PM,05:07 AM,Waxing Gibbous,55
+2018-01-27,24,11,52,20,32,260,W,296,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0017_cloudy_with_light_rain.png,Light rain,27.4,95,8,1020,93,10,50,9,49,7,44,32,52,7,44
+2018-01-28,11,52,10,50,09:30 AM,06:15 PM,03:03 PM,06:22 AM,Waxing Gibbous,62
+2018-01-28,24,11,52,26,41,232,SW,266,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0017_cloudy_with_light_rain.png,Light drizzle,2.6,93,3,1025,92,11,51,10,49,7,44,40,65,7,44
+2018-01-29,8,47,7,44,09:28 AM,06:16 PM,04:01 PM,07:31 AM,Waxing Gibbous,69
+2018-01-29,24,8,47,15,25,304,NW,176,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,9.9,78,8,1028,67,8,46,4,40,5,40,23,37,5,40
+2018-01-30,8,47,5,40,09:27 AM,06:18 PM,05:11 PM,08:30 AM,Full Moon,76
+2018-01-30,24,8,47,15,25,225,SW,266,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0017_cloudy_with_light_rain.png,Light drizzle,3.4,80,9,1023,90,6,43,4,39,3,37,23,37,3,37
+2018-01-31,7,44,3,37,09:25 AM,06:20 PM,06:29 PM,09:19 AM,Full Moon,83
+2018-01-31,24,7,44,31,50,294,WNW,365,http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0013_sleet_showers.png,Moderate or heavy sleet showers,18.2,68,9,1008,81,6,42,1,33,0,33,49,78,0,33
